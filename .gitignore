@@ -1,0 +1,551 @@
+0301/test/emproject.properties
+0301/test/project.emp
+0301/test/DataSources/dmd_cm.sas7bdat
+0301/test/DataSources/dmd_p.sas7bdat
+0301/test/DataSources/dmd_tm.sas7bdat
+0301/test/Workspaces/workSpaces.txt
+0301/test/Workspaces/EMWS1/em_dgraph.sas7bdat
+0301/test/Workspaces/EMWS1/em_diagramedit.sas7bdat
+0301/test/Workspaces/EMWS1/em_history.sas7bdat
+0301/test/Workspaces/EMWS1/em_nodeid.sas7bdat
+0301/test/Workspaces/EMWS1/em_tree.sas7bvew
+0301/test/Workspaces/EMWS1/EMNOTES.txt
+0301/test/Workspaces/EMWS1/grfexpl.sas7bcat
+0301/test/Workspaces/EMWS1/grfexpl_cmeta_train.sas7bdat
+0301/test/Workspaces/EMWS1/grfexpl_emreport.sas7bdat
+0301/test/Workspaces/EMWS1/grfexpl_emtrainvariable.sas7bdat
+0301/test/Workspaces/EMWS1/grfexpl_exportset.sas7bdat
+0301/test/Workspaces/EMWS1/grfexpl_importset.sas7bdat
+0301/test/Workspaces/EMWS1/grfexpl_sample_data.sas7bdat
+0301/test/Workspaces/EMWS1/grfexpl_train.sas7bvew
+0301/test/Workspaces/EMWS1/grfexpl_variableset.sas7bdat
+0301/test/Workspaces/EMWS1/ids.sas7bcat
+0301/test/Workspaces/EMWS1/ids_cmeta_data.sas7bdat
+0301/test/Workspaces/EMWS1/ids_data.sas7bvew
+0301/test/Workspaces/EMWS1/ids_emcmetadefault.sas7bdat
+0301/test/Workspaces/EMWS1/ids_eminfo.sas7bdat
+0301/test/Workspaces/EMWS1/ids_emreport.sas7bdat
+0301/test/Workspaces/EMWS1/ids_emtmetadefault.sas7bdat
+0301/test/Workspaces/EMWS1/ids_emtrainvariable.sas7bdat
+0301/test/Workspaces/EMWS1/ids_exportset.sas7bdat
+0301/test/Workspaces/EMWS1/ids_importset.sas7bdat
+0301/test/Workspaces/EMWS1/ids_purchase_dd.sas7bdat
+0301/test/Workspaces/EMWS1/ids_purchase_dm.sas7bdat
+0301/test/Workspaces/EMWS1/ids_variableset.sas7bdat
+0301/test/Workspaces/EMWS1/tree.sas7bcat
+0301/test/Workspaces/EMWS1/tree_cmeta_train.sas7bdat
+0301/test/Workspaces/EMWS1/tree_emclassification.sas7bdat
+0301/test/Workspaces/EMWS1/tree_emeventreport.sas7bdat
+0301/test/Workspaces/EMWS1/tree_eminfo.sas7bdat
+0301/test/Workspaces/EMWS1/tree_emoutfit.sas7bdat
+0301/test/Workspaces/EMWS1/tree_emrank.sas7bdat
+0301/test/Workspaces/EMWS1/tree_emreport.sas7bdat
+0301/test/Workspaces/EMWS1/tree_emreportfit.sas7bdat
+0301/test/Workspaces/EMWS1/tree_emscoredist.sas7bdat
+0301/test/Workspaces/EMWS1/tree_emtrainvariable.sas7bdat
+0301/test/Workspaces/EMWS1/tree_emtree.sas7bdat
+0301/test/Workspaces/EMWS1/tree_exportset.sas7bdat
+0301/test/Workspaces/EMWS1/tree_importset.sas7bdat
+0301/test/Workspaces/EMWS1/tree_outimport.sas7bdat
+0301/test/Workspaces/EMWS1/tree_outnodes.sas7bdat
+0301/test/Workspaces/EMWS1/tree_outpath.sas7bdat
+0301/test/Workspaces/EMWS1/tree_outrules.sas7bdat
+0301/test/Workspaces/EMWS1/tree_outseq.sas7bdat
+0301/test/Workspaces/EMWS1/tree_outstats.sas7bdat
+0301/test/Workspaces/EMWS1/tree_outsummary.sas7bdat
+0301/test/Workspaces/EMWS1/tree_outtopology.sas7bdat
+0301/test/Workspaces/EMWS1/tree_train.sas7bvew
+0301/test/Workspaces/EMWS1/tree_tree_plot.sas7bdat
+0301/test/Workspaces/EMWS1/tree_variableset.sas7bdat
+0301/test/Workspaces/EMWS1/wsmeta.txt
+0301/test/Workspaces/EMWS1/GrfExpl/_runcomplete.st
+0301/test/Workspaces/EMWS1/GrfExpl/_updatepath.st
+0301/test/Workspaces/EMWS1/GrfExpl/BATCH.sas
+0301/test/Workspaces/EMWS1/GrfExpl/CDELTA_TRAIN.sas
+0301/test/Workspaces/EMWS1/GrfExpl/em_varmacros.sas
+0301/test/Workspaces/EMWS1/GrfExpl/EMCUSTOMGRAPH.xml
+0301/test/Workspaces/EMWS1/GrfExpl/EMLOG.log
+0301/test/Workspaces/EMWS1/GrfExpl/EMNOTES.txt
+0301/test/Workspaces/EMWS1/GrfExpl/EMOUTPUT.out
+0301/test/Workspaces/EMWS1/GrfExpl/EMREPORT.log
+0301/test/Workspaces/EMWS1/GrfExpl/EMREPORT.out
+0301/test/Workspaces/EMWS1/GrfExpl/EMRUNSTATUS.xml
+0301/test/Workspaces/EMWS1/GrfExpl/EMSCORE.log
+0301/test/Workspaces/EMWS1/GrfExpl/EMSCORE.out
+0301/test/Workspaces/EMWS1/GrfExpl/EMTRAIN.log
+0301/test/Workspaces/EMWS1/GrfExpl/EMTRAIN.out
+0301/test/Workspaces/EMWS1/GrfExpl/EMTRAINCODE.sas
+0301/test/Workspaces/EMWS1/GrfExpl/PROPERTIES.xml
+0301/test/Workspaces/EMWS1/GrfExpl/timing.txt
+0301/test/Workspaces/EMWS1/GrfExpl/TRAINPROPERTIES.xml
+0301/test/Workspaces/EMWS1/GrfExpl/updatetiming.txt
+0301/test/Workspaces/EMWS1/GrfExpl/USERTRAINCODE.sas
+0301/test/Workspaces/EMWS1/Ids/_runcomplete.st
+0301/test/Workspaces/EMWS1/Ids/BATCH.sas
+0301/test/Workspaces/EMWS1/Ids/CDELTA_DATA.sas
+0301/test/Workspaces/EMWS1/Ids/EMLOG.log
+0301/test/Workspaces/EMWS1/Ids/EMNOTES.txt
+0301/test/Workspaces/EMWS1/Ids/EMOUTPUT.out
+0301/test/Workspaces/EMWS1/Ids/EMREPORT.log
+0301/test/Workspaces/EMWS1/Ids/EMREPORT.out
+0301/test/Workspaces/EMWS1/Ids/EMRUNSTATUS.xml
+0301/test/Workspaces/EMWS1/Ids/EMSCORE.log
+0301/test/Workspaces/EMWS1/Ids/EMSCORE.out
+0301/test/Workspaces/EMWS1/Ids/EMTRAIN.log
+0301/test/Workspaces/EMWS1/Ids/EMTRAIN.out
+0301/test/Workspaces/EMWS1/Ids/EMTRAINCODE.sas
+0301/test/Workspaces/EMWS1/Ids/HPDMSCORE.sas
+0301/test/Workspaces/EMWS1/Ids/PROPERTIES.xml
+0301/test/Workspaces/EMWS1/Ids/timing.txt
+0301/test/Workspaces/EMWS1/Ids/TRAINPROPERTIES.xml
+0301/test/Workspaces/EMWS1/Ids/updatetiming.txt
+0301/test/Workspaces/EMWS1/System/GrfExpl_completerun.st
+0301/test/Workspaces/EMWS1/System/Ids_completerun.st
+0301/test/Workspaces/EMWS1/System/lastrun_complete.st
+0301/test/Workspaces/EMWS1/System/run.log
+0301/test/Workspaces/EMWS1/System/runTiming.txt
+0301/test/Workspaces/EMWS1/System/Tree_completerun.st
+0301/test/Workspaces/EMWS1/Tree/_runcomplete.st
+0301/test/Workspaces/EMWS1/Tree/_updatepath.st
+0301/test/Workspaces/EMWS1/Tree/BATCH.sas
+0301/test/Workspaces/EMWS1/Tree/CDELTA_TRAIN.sas
+0301/test/Workspaces/EMWS1/Tree/em_varmacros.sas
+0301/test/Workspaces/EMWS1/Tree/EMCUSTOMGRAPH.xml
+0301/test/Workspaces/EMWS1/Tree/EMFLOWSCORE.sas
+0301/test/Workspaces/EMWS1/Tree/EMLOG.log
+0301/test/Workspaces/EMWS1/Tree/EMNOTES.txt
+0301/test/Workspaces/EMWS1/Tree/EMOUTPUT.out
+0301/test/Workspaces/EMWS1/Tree/EMPUBLISHSCORE.sas
+0301/test/Workspaces/EMWS1/Tree/EMREPORT.log
+0301/test/Workspaces/EMWS1/Tree/EMREPORT.out
+0301/test/Workspaces/EMWS1/Tree/EMRUNSTATUS.xml
+0301/test/Workspaces/EMWS1/Tree/EMSCORE.log
+0301/test/Workspaces/EMWS1/Tree/EMSCORE.out
+0301/test/Workspaces/EMWS1/Tree/EMTRAIN.log
+0301/test/Workspaces/EMWS1/Tree/EMTRAIN.out
+0301/test/Workspaces/EMWS1/Tree/EMTRAINCODE.sas
+0301/test/Workspaces/EMWS1/Tree/ENGLISHRULES.txt
+0301/test/Workspaces/EMWS1/Tree/PROPERTIES.xml
+0301/test/Workspaces/EMWS1/Tree/timing.txt
+0301/test/Workspaces/EMWS1/Tree/TRAINPROPERTIES.xml
+0301/test/Workspaces/EMWS1/Tree/TREEFLOW.sas
+0301/test/Workspaces/EMWS1/Tree/TREEPUBLISH.sas
+0301/test/Workspaces/EMWS1/Tree/updatetiming.txt
+0301/test/Workspaces/EMWS1/Tree/USERTRAINCODE.sas
+0303/DATA/A_1.xls
+0303/DATA/A_2.xls
+0303/DATA/CORR.xls
+0303/DATA/Independent.xls
+0303/DATA/SCORE.xls
+0303/DATA/ScoreMean專案.egp
+0303/DATA/Data-EMw/Data-EMw/Data Preparation.xml
+0303/DATA/Data-EMw/Data-EMw/nofund_customers.sas7bdat
+0303/DATA/Data-EMw/Data-EMw/purchase_fund.sas7bdat
+0308/EM Workshop/emproject.properties
+0308/EM Workshop/project.emp
+0308/EM Workshop/Meta/libnames.sas7bdat
+0308/EM Workshop/Workspaces/workSpaces.txt
+0308/EM Workshop/Workspaces/EMWS1/em_dgraph.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/em_diagramedit.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/em_history.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/em_nodeid.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/em_tree.sas7bvew
+0308/EM Workshop/Workspaces/EMWS1/EMNOTES.txt
+0308/EM Workshop/Workspaces/EMWS1/ids.sas7bcat
+0308/EM Workshop/Workspaces/EMWS1/ids_cmeta_data.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids_data.sas7bvew
+0308/EM Workshop/Workspaces/EMWS1/ids_emcmetadefault.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids_eminfo.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids_emreport.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids_emtmetadefault.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids_emtrainvariable.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids_exportset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids_fund_dd.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids_fund_dm.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids_importset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids_variableset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids2.sas7bcat
+0308/EM Workshop/Workspaces/EMWS1/ids2_cmeta_data.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids2_data.sas7bvew
+0308/EM Workshop/Workspaces/EMWS1/ids2_emcmetadefault.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids2_eminfo.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids2_emreport.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids2_emtmetadefault.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids2_emtrainvariable.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids2_exportset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids2_importset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/ids2_variableset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/impt.sas7bcat
+0308/EM Workshop/Workspaces/EMWS1/impt_cmeta_train.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/impt_emreport.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/impt_emscorevar.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/impt_emtrainvariable.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/impt_exportset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/impt_importset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/impt_meta.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/impt_result.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/impt_train.sas7bvew
+0308/EM Workshop/Workspaces/EMWS1/impt_validate.sas7bvew
+0308/EM Workshop/Workspaces/EMWS1/impt_variableset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp.sas7bcat
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_cmeta_train.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_comparefit.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_emclassification.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_emeventreport.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_emindex.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_emoutfit.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_emrank.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_emreport.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_emreportfit.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_emroc.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_emscoredist.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_emtrainvariable.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_exportset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_importset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_train.sas7bvew
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_validate.sas7bvew
+0308/EM Workshop/Workspaces/EMWS1/mdlcomp_variableset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/part.sas7bcat
+0308/EM Workshop/Workspaces/EMWS1/part_class.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/part_cmeta_train.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/part_emreport.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/part_emtrainvariable.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/part_exportset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/part_importset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/part_train.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/part_validate.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/part_variableset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg.sas7bcat
+0308/EM Workshop/Workspaces/EMWS1/reg_cmeta_train.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_effects.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_emclassification.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_emestimate.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_emeventreport.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_eminfo.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_emoutfit.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_emrank.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_emreport.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_emreportfit.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_emscoredist.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_emtrainvariable.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_estimategrid.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_exportset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_importset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_mapds.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_outterms.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/reg_train.sas7bvew
+0308/EM Workshop/Workspaces/EMWS1/reg_validate.sas7bvew
+0308/EM Workshop/Workspaces/EMWS1/reg_variableset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/score.sas7bcat
+0308/EM Workshop/Workspaces/EMWS1/score_bar.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/score_cmeta_score.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/score_cmeta_train.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/score_eminputvars.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/score_emoutputvars.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/score_emreport.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/score_emtrainvariable.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/score_exportset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/score_fcmp.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/score_hist.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/score_importset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/score_score.sas7bvew
+0308/EM Workshop/Workspaces/EMWS1/score_train.sas7bvew
+0308/EM Workshop/Workspaces/EMWS1/score_validate.sas7bvew
+0308/EM Workshop/Workspaces/EMWS1/score_variableset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/smpl.sas7bcat
+0308/EM Workshop/Workspaces/EMWS1/smpl_class.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/smpl_cmeta_data.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/smpl_data.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/smpl_emreport.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/smpl_emtrainvariable.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/smpl_exportset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/smpl_importset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/smpl_stratasummary.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/smpl_variableset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/trans.sas7bcat
+0308/EM Workshop/Workspaces/EMWS1/trans_cmeta_train.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/trans_emreport.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/trans_emscorevar.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/trans_emtrainvariable.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/trans_exportset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/trans_importset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/trans_result.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/trans_sample_data.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/trans_statistics.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/trans_train.sas7bvew
+0308/EM Workshop/Workspaces/EMWS1/trans_validate.sas7bvew
+0308/EM Workshop/Workspaces/EMWS1/trans_variableset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree.sas7bcat
+0308/EM Workshop/Workspaces/EMWS1/tree_cmeta_train.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_emclassification.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_emeventreport.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_eminfo.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_emoutfit.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_emrank.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_emreport.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_emreportfit.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_emscoredist.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_emtrainvariable.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_emtree.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_exportset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_importset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_outimport.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_outnodes.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_outpath.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_outrules.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_outseq.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_outstats.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_outsummary.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_outtopology.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_train.sas7bvew
+0308/EM Workshop/Workspaces/EMWS1/tree_tree_plot.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/tree_validate.sas7bvew
+0308/EM Workshop/Workspaces/EMWS1/tree_variableset.sas7bdat
+0308/EM Workshop/Workspaces/EMWS1/wsmeta.txt
+0308/EM Workshop/Workspaces/EMWS1/Ids/_runcomplete.st
+0308/EM Workshop/Workspaces/EMWS1/Ids/BATCH.sas
+0308/EM Workshop/Workspaces/EMWS1/Ids/CDELTA_DATA.sas
+0308/EM Workshop/Workspaces/EMWS1/Ids/EMLOG.log
+0308/EM Workshop/Workspaces/EMWS1/Ids/EMNOTES.txt
+0308/EM Workshop/Workspaces/EMWS1/Ids/EMOUTPUT.out
+0308/EM Workshop/Workspaces/EMWS1/Ids/EMREPORT.log
+0308/EM Workshop/Workspaces/EMWS1/Ids/EMREPORT.out
+0308/EM Workshop/Workspaces/EMWS1/Ids/EMRUNSTATUS.xml
+0308/EM Workshop/Workspaces/EMWS1/Ids/EMSCORE.log
+0308/EM Workshop/Workspaces/EMWS1/Ids/EMSCORE.out
+0308/EM Workshop/Workspaces/EMWS1/Ids/EMTRAIN.log
+0308/EM Workshop/Workspaces/EMWS1/Ids/EMTRAIN.out
+0308/EM Workshop/Workspaces/EMWS1/Ids/EMTRAINCODE.sas
+0308/EM Workshop/Workspaces/EMWS1/Ids/HPDMSCORE.sas
+0308/EM Workshop/Workspaces/EMWS1/Ids/PROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Ids/timing.txt
+0308/EM Workshop/Workspaces/EMWS1/Ids/TRAINPROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Ids/updatetiming.txt
+0308/EM Workshop/Workspaces/EMWS1/Ids2/_runcomplete.st
+0308/EM Workshop/Workspaces/EMWS1/Ids2/BATCH.sas
+0308/EM Workshop/Workspaces/EMWS1/Ids2/CDELTA_DATA.sas
+0308/EM Workshop/Workspaces/EMWS1/Ids2/EMLOG.log
+0308/EM Workshop/Workspaces/EMWS1/Ids2/EMNOTES.txt
+0308/EM Workshop/Workspaces/EMWS1/Ids2/EMOUTPUT.out
+0308/EM Workshop/Workspaces/EMWS1/Ids2/EMREPORT.log
+0308/EM Workshop/Workspaces/EMWS1/Ids2/EMREPORT.out
+0308/EM Workshop/Workspaces/EMWS1/Ids2/EMRUNSTATUS.xml
+0308/EM Workshop/Workspaces/EMWS1/Ids2/EMSCORE.log
+0308/EM Workshop/Workspaces/EMWS1/Ids2/EMSCORE.out
+0308/EM Workshop/Workspaces/EMWS1/Ids2/EMTRAIN.log
+0308/EM Workshop/Workspaces/EMWS1/Ids2/EMTRAIN.out
+0308/EM Workshop/Workspaces/EMWS1/Ids2/EMTRAINCODE.sas
+0308/EM Workshop/Workspaces/EMWS1/Ids2/HPDMSCORE.sas
+0308/EM Workshop/Workspaces/EMWS1/Ids2/PROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Ids2/timing.txt
+0308/EM Workshop/Workspaces/EMWS1/Ids2/TRAINPROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Ids2/updatetiming.txt
+0308/EM Workshop/Workspaces/EMWS1/Impt/_runcomplete.st
+0308/EM Workshop/Workspaces/EMWS1/Impt/BATCH.sas
+0308/EM Workshop/Workspaces/EMWS1/Impt/CDELTA_TRAIN.sas
+0308/EM Workshop/Workspaces/EMWS1/Impt/EMFLOWSCORE.sas
+0308/EM Workshop/Workspaces/EMWS1/Impt/EMLOG.log
+0308/EM Workshop/Workspaces/EMWS1/Impt/EMNOTES.txt
+0308/EM Workshop/Workspaces/EMWS1/Impt/EMOUTPUT.out
+0308/EM Workshop/Workspaces/EMWS1/Impt/EMPUBLISHSCORE.sas
+0308/EM Workshop/Workspaces/EMWS1/Impt/EMREPORT.log
+0308/EM Workshop/Workspaces/EMWS1/Impt/EMREPORT.out
+0308/EM Workshop/Workspaces/EMWS1/Impt/EMRUNSTATUS.xml
+0308/EM Workshop/Workspaces/EMWS1/Impt/EMSCORE.log
+0308/EM Workshop/Workspaces/EMWS1/Impt/EMSCORE.out
+0308/EM Workshop/Workspaces/EMWS1/Impt/EMTRAIN.log
+0308/EM Workshop/Workspaces/EMWS1/Impt/EMTRAIN.out
+0308/EM Workshop/Workspaces/EMWS1/Impt/PROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Impt/timing.txt
+0308/EM Workshop/Workspaces/EMWS1/Impt/TRAINPROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Impt/updatetiming.txt
+0308/EM Workshop/Workspaces/EMWS1/Impt/IMPUTECODE/IMP_income.sas
+0308/EM Workshop/Workspaces/EMWS1/Impt/IMPUTECODE/IMP_sec_1monprice_1yr.sas
+0308/EM Workshop/Workspaces/EMWS1/Impt/IMPUTECODE/IMP_sec_freq_1yr.sas
+0308/EM Workshop/Workspaces/EMWS1/Impt/IMPUTECODE/M_income.sas
+0308/EM Workshop/Workspaces/EMWS1/Impt/IMPUTECODE/M_sec_1monprice_1yr.sas
+0308/EM Workshop/Workspaces/EMWS1/Impt/IMPUTECODE/M_sec_freq_1yr.sas
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/_runcomplete.st
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/BATCH.sas
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/EMCUSTOMGRAPH.xml
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/EMFLOWSCORE.sas
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/EMLOG.log
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/EMNOTES.txt
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/EMOUTPUT.out
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/EMPUBLISHSCORE.sas
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/EMREPORT.log
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/EMREPORT.out
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/EMRUNSTATUS.xml
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/EMSCORE.log
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/EMSCORE.out
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/EMTRAIN.log
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/EMTRAIN.out
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/EMTRAINCODE.sas
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/PROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/timing.txt
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/TRAINPROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/MdlComp/updatetiming.txt
+0308/EM Workshop/Workspaces/EMWS1/Part/_runcomplete.st
+0308/EM Workshop/Workspaces/EMWS1/Part/BATCH.sas
+0308/EM Workshop/Workspaces/EMWS1/Part/CDELTA_TEST.sas
+0308/EM Workshop/Workspaces/EMWS1/Part/CDELTA_TRAIN.sas
+0308/EM Workshop/Workspaces/EMWS1/Part/CDELTA_VALIDATE.sas
+0308/EM Workshop/Workspaces/EMWS1/Part/EMLOG.log
+0308/EM Workshop/Workspaces/EMWS1/Part/EMNOTES.txt
+0308/EM Workshop/Workspaces/EMWS1/Part/EMOUTPUT.out
+0308/EM Workshop/Workspaces/EMWS1/Part/EMREPORT.log
+0308/EM Workshop/Workspaces/EMWS1/Part/EMREPORT.out
+0308/EM Workshop/Workspaces/EMWS1/Part/EMRUNSTATUS.xml
+0308/EM Workshop/Workspaces/EMWS1/Part/EMSCORE.log
+0308/EM Workshop/Workspaces/EMWS1/Part/EMSCORE.out
+0308/EM Workshop/Workspaces/EMWS1/Part/EMTRAIN.log
+0308/EM Workshop/Workspaces/EMWS1/Part/EMTRAIN.out
+0308/EM Workshop/Workspaces/EMWS1/Part/EMTRAINCODE.sas
+0308/EM Workshop/Workspaces/EMWS1/Part/PROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Part/timing.txt
+0308/EM Workshop/Workspaces/EMWS1/Part/TRAINPROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Part/updatetiming.txt
+0308/EM Workshop/Workspaces/EMWS1/Reg/_runcomplete.st
+0308/EM Workshop/Workspaces/EMWS1/Reg/BATCH.sas
+0308/EM Workshop/Workspaces/EMWS1/Reg/CDELTA_TRAIN.sas
+0308/EM Workshop/Workspaces/EMWS1/Reg/EMFLOWSCORE.sas
+0308/EM Workshop/Workspaces/EMWS1/Reg/EMLOG.log
+0308/EM Workshop/Workspaces/EMWS1/Reg/EMNOTES.txt
+0308/EM Workshop/Workspaces/EMWS1/Reg/EMOUTPUT.out
+0308/EM Workshop/Workspaces/EMWS1/Reg/EMPUBLISHSCORE.sas
+0308/EM Workshop/Workspaces/EMWS1/Reg/EMREPORT.log
+0308/EM Workshop/Workspaces/EMWS1/Reg/EMREPORT.out
+0308/EM Workshop/Workspaces/EMWS1/Reg/EMRUNSTATUS.xml
+0308/EM Workshop/Workspaces/EMWS1/Reg/EMSCORE.log
+0308/EM Workshop/Workspaces/EMWS1/Reg/EMSCORE.out
+0308/EM Workshop/Workspaces/EMWS1/Reg/EMTRAIN.log
+0308/EM Workshop/Workspaces/EMWS1/Reg/EMTRAIN.out
+0308/EM Workshop/Workspaces/EMWS1/Reg/EMTRAINCODE.sas
+0308/EM Workshop/Workspaces/EMWS1/Reg/PROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Reg/timing.txt
+0308/EM Workshop/Workspaces/EMWS1/Reg/TRAINPROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Reg/updatetiming.txt
+0308/EM Workshop/Workspaces/EMWS1/Score/_runcomplete.st
+0308/EM Workshop/Workspaces/EMWS1/Score/_updatepath.st
+0308/EM Workshop/Workspaces/EMWS1/Score/BATCH.sas
+0308/EM Workshop/Workspaces/EMWS1/Score/CDELTA_TRAIN.sas
+0308/EM Workshop/Workspaces/EMWS1/Score/EMFLOWSCORE.sas
+0308/EM Workshop/Workspaces/EMWS1/Score/EMLOG.log
+0308/EM Workshop/Workspaces/EMWS1/Score/EMNOTES.txt
+0308/EM Workshop/Workspaces/EMWS1/Score/EMOUTPUT.out
+0308/EM Workshop/Workspaces/EMWS1/Score/EMPUBLISHSCORE.sas
+0308/EM Workshop/Workspaces/EMWS1/Score/EMREPORT.log
+0308/EM Workshop/Workspaces/EMWS1/Score/EMREPORT.out
+0308/EM Workshop/Workspaces/EMWS1/Score/EMRUNSTATUS.xml
+0308/EM Workshop/Workspaces/EMWS1/Score/EMSCORE.log
+0308/EM Workshop/Workspaces/EMWS1/Score/EMSCORE.out
+0308/EM Workshop/Workspaces/EMWS1/Score/EMTRAIN.log
+0308/EM Workshop/Workspaces/EMWS1/Score/EMTRAIN.out
+0308/EM Workshop/Workspaces/EMWS1/Score/OPTIMIZEDCODE.sas
+0308/EM Workshop/Workspaces/EMWS1/Score/PATHCSCORECODE.sas
+0308/EM Workshop/Workspaces/EMWS1/Score/PATHFLOWSCORECODE.sas
+0308/EM Workshop/Workspaces/EMWS1/Score/PATHJSCORECODE.sas
+0308/EM Workshop/Workspaces/EMWS1/Score/PATHPUBLISHSCORECODE.sas
+0308/EM Workshop/Workspaces/EMWS1/Score/PROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Score/timing.txt
+0308/EM Workshop/Workspaces/EMWS1/Score/TRAINPROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Score/updatetiming.txt
+0308/EM Workshop/Workspaces/EMWS1/Smpl/_runcomplete.st
+0308/EM Workshop/Workspaces/EMWS1/Smpl/BATCH.sas
+0308/EM Workshop/Workspaces/EMWS1/Smpl/CDELTA_DATA.sas
+0308/EM Workshop/Workspaces/EMWS1/Smpl/EMLOG.log
+0308/EM Workshop/Workspaces/EMWS1/Smpl/EMNOTES.txt
+0308/EM Workshop/Workspaces/EMWS1/Smpl/EMOUTPUT.out
+0308/EM Workshop/Workspaces/EMWS1/Smpl/EMREPORT.log
+0308/EM Workshop/Workspaces/EMWS1/Smpl/EMREPORT.out
+0308/EM Workshop/Workspaces/EMWS1/Smpl/EMRUNSTATUS.xml
+0308/EM Workshop/Workspaces/EMWS1/Smpl/EMSCORE.log
+0308/EM Workshop/Workspaces/EMWS1/Smpl/EMSCORE.out
+0308/EM Workshop/Workspaces/EMWS1/Smpl/EMTRAIN.log
+0308/EM Workshop/Workspaces/EMWS1/Smpl/EMTRAIN.out
+0308/EM Workshop/Workspaces/EMWS1/Smpl/EMTRAINCODE.sas
+0308/EM Workshop/Workspaces/EMWS1/Smpl/PROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Smpl/timing.txt
+0308/EM Workshop/Workspaces/EMWS1/Smpl/TRAINPROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Smpl/updatetiming.txt
+0308/EM Workshop/Workspaces/EMWS1/System/Ids_completerun.st
+0308/EM Workshop/Workspaces/EMWS1/System/Ids2_completerun.st
+0308/EM Workshop/Workspaces/EMWS1/System/Impt_completerun.st
+0308/EM Workshop/Workspaces/EMWS1/System/lastrun_complete.st
+0308/EM Workshop/Workspaces/EMWS1/System/MdlComp_completerun.st
+0308/EM Workshop/Workspaces/EMWS1/System/Part_completerun.st
+0308/EM Workshop/Workspaces/EMWS1/System/Reg_completerun.st
+0308/EM Workshop/Workspaces/EMWS1/System/run.log
+0308/EM Workshop/Workspaces/EMWS1/System/runTiming.txt
+0308/EM Workshop/Workspaces/EMWS1/System/Score_completerun.st
+0308/EM Workshop/Workspaces/EMWS1/System/Smpl_completerun.st
+0308/EM Workshop/Workspaces/EMWS1/System/Trans_completerun.st
+0308/EM Workshop/Workspaces/EMWS1/System/Tree_completerun.st
+0308/EM Workshop/Workspaces/EMWS1/System/update.log
+0308/EM Workshop/Workspaces/EMWS1/Trans/_runcomplete.st
+0308/EM Workshop/Workspaces/EMWS1/Trans/BATCH.sas
+0308/EM Workshop/Workspaces/EMWS1/Trans/CDELTA_TRAIN.sas
+0308/EM Workshop/Workspaces/EMWS1/Trans/EMFLOWSCORE.sas
+0308/EM Workshop/Workspaces/EMWS1/Trans/EMLOG.log
+0308/EM Workshop/Workspaces/EMWS1/Trans/EMNOTES.txt
+0308/EM Workshop/Workspaces/EMWS1/Trans/EMOUTPUT.out
+0308/EM Workshop/Workspaces/EMWS1/Trans/EMPUBLISHSCORE.sas
+0308/EM Workshop/Workspaces/EMWS1/Trans/EMREPORT.log
+0308/EM Workshop/Workspaces/EMWS1/Trans/EMREPORT.out
+0308/EM Workshop/Workspaces/EMWS1/Trans/EMRUNSTATUS.xml
+0308/EM Workshop/Workspaces/EMWS1/Trans/EMSCORE.log
+0308/EM Workshop/Workspaces/EMWS1/Trans/EMSCORE.out
+0308/EM Workshop/Workspaces/EMWS1/Trans/EMTRAIN.log
+0308/EM Workshop/Workspaces/EMWS1/Trans/EMTRAIN.out
+0308/EM Workshop/Workspaces/EMWS1/Trans/PROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Trans/PUBLISHTRAINCODE.sas
+0308/EM Workshop/Workspaces/EMWS1/Trans/timing.txt
+0308/EM Workshop/Workspaces/EMWS1/Trans/TRAINDELTACODE.sas
+0308/EM Workshop/Workspaces/EMWS1/Trans/TRAINPROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Trans/TRAINSCORECODE.sas
+0308/EM Workshop/Workspaces/EMWS1/Trans/updatetiming.txt
+0308/EM Workshop/Workspaces/EMWS1/Trans/TRANSFORMCODE/LOG_allprice_6mon.sas
+0308/EM Workshop/Workspaces/EMWS1/Trans/TRANSFORMCODE/LOG_cus_mon.sas
+0308/EM Workshop/Workspaces/EMWS1/Trans/TRANSFORMCODE/SQR_IMP_income.sas
+0308/EM Workshop/Workspaces/EMWS1/Tree/_runcomplete.st
+0308/EM Workshop/Workspaces/EMWS1/Tree/BATCH.sas
+0308/EM Workshop/Workspaces/EMWS1/Tree/CDELTA_TRAIN.sas
+0308/EM Workshop/Workspaces/EMWS1/Tree/EMCUSTOMGRAPH.xml
+0308/EM Workshop/Workspaces/EMWS1/Tree/EMFLOWSCORE.sas
+0308/EM Workshop/Workspaces/EMWS1/Tree/EMLOG.log
+0308/EM Workshop/Workspaces/EMWS1/Tree/EMNOTES.txt
+0308/EM Workshop/Workspaces/EMWS1/Tree/EMOUTPUT.out
+0308/EM Workshop/Workspaces/EMWS1/Tree/EMPUBLISHSCORE.sas
+0308/EM Workshop/Workspaces/EMWS1/Tree/EMREPORT.log
+0308/EM Workshop/Workspaces/EMWS1/Tree/EMREPORT.out
+0308/EM Workshop/Workspaces/EMWS1/Tree/EMRUNSTATUS.xml
+0308/EM Workshop/Workspaces/EMWS1/Tree/EMSCORE.log
+0308/EM Workshop/Workspaces/EMWS1/Tree/EMSCORE.out
+0308/EM Workshop/Workspaces/EMWS1/Tree/EMTRAIN.log
+0308/EM Workshop/Workspaces/EMWS1/Tree/EMTRAIN.out
+0308/EM Workshop/Workspaces/EMWS1/Tree/EMTRAINCODE.sas
+0308/EM Workshop/Workspaces/EMWS1/Tree/ENGLISHRULES.txt
+0308/EM Workshop/Workspaces/EMWS1/Tree/PROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Tree/timing.txt
+0308/EM Workshop/Workspaces/EMWS1/Tree/TRAINPROPERTIES.xml
+0308/EM Workshop/Workspaces/EMWS1/Tree/TREEFLOW.sas
+0308/EM Workshop/Workspaces/EMWS1/Tree/TREEPUBLISH.sas
+0308/EM Workshop/Workspaces/EMWS1/Tree/updatetiming.txt
+0308/EM Workshop/Workspaces/EMWS1/Tree/USERTRAINCODE.sas
+0310/SampleData/sampledata.sas7bdat
+0310/SampleData/客戶行為資料_消費行為_進階運算式.pptx
+0315/EG_WORKSHOP/County_code.xlsx
+0315/EG_WORKSHOP/DEATH.xlsx
+0315/EG_WORKSHOP/ipd.sas7bdat
+0315/EG_WORKSHOP/opd_1.sas7bdat
+0315/EG_WORKSHOP/opd_2.sas7bdat
+0315/EG_WORKSHOP/opd_3.sas7bdat
+0315/EG_WORKSHOP/opd_4.sas7bdat
+0315/EG_WORKSHOP/畫圖.txt
+0315/EG_WORKSHOP/新增變數_輸入運算式 (新增存活時間變數).txt
+0315/EG_WORKSHOP/新增變數_輸入運算式 (新增死亡變數).txt
+0315/u8/ipd.sas7bdat
+0315/u8/opd_1.sas7bdat
+0315/u8/opd_2.sas7bdat
+0315/u8/opd_3.sas7bdat
+0315/u8/opd_4.sas7bdat

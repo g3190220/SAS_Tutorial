@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><_ROOT_ EMVERSION="15.2" ORIENTATION="HORIZONTAL">
+<Workspace>
+<NODES>
+<NODE CLASS="SASHELP.EMSAMP.IDS.CLASS" COMPONENT="DataSource" ID="Ids" X="106" Y="166" DESCRIPTION="Purchase_Fund" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="SAMPLE" TOOLPREFIX="Ids">
+<PROPERTIES Component="DataSource" Description="Purchase_Fund" Role="RAW" Library="EMDATA" Table="PURCHASE_FUND" ForceRun="N" ComputeStatistics="N" DataSource="" DataSelection="USERTABLE" NewTable="EMDATA.PURCHASE_FUND" OutputType="VIEW" MetaAdvisor="BASIC" ApplyIntervalLevelLowerLimit="Y" IntervalLowerLimit="20" ApplyMaxPercentMissing="Y" MaxPercentMissing="50" MaxClassLevels="20" IdentifyEmptyColumns="Y" VariableValidation="STRICT" NewVariableRole="REJECT" Sample="D" SampleSizeType="PERCENT" SampleSizePercent="20" SampleSizeObs="10000" DBPassThrough="Y" NObs="156666" NCols="38" NBytes="25166848" Segment="" ApplyMaxClassLevels="Y" DropMapVariables="N">
+<EmVariableAttributes>
+<DELTA Variable="allprice_6mon_bank" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="card" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="chi_num" AttributeName="LEVEL" AttributeValue="ORDINAL"/>
+<DELTA Variable="credit" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="credit_old" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="degree" AttributeName="LEVEL" AttributeValue="ORDINAL"/>
+<DELTA Variable="delete_insurance_creditcard" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="delete_insurance_deposit" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="f_rate_atm" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="f_rate_atm" AttributeName="LEVEL" AttributeValue="INTERVAL"/>
+<DELTA Variable="f_rate_counter" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="f_rate_counter" AttributeName="LEVEL" AttributeValue="INTERVAL"/>
+<DELTA Variable="f_rate_ebank" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="f_rate_ebank" AttributeName="LEVEL" AttributeValue="INTERVAL"/>
+<DELTA Variable="f_rate_phone" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="f_rate_phone" AttributeName="LEVEL" AttributeValue="INTERVAL"/>
+<DELTA Variable="foreign_currency_loan" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="fund" AttributeName="ROLE" AttributeValue="TARGET"/>
+<DELTA Variable="fund" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="gender" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="insurance" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="marry" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="secured_loan" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="unsecured_loan" AttributeName="LEVEL" AttributeValue="BINARY"/>
+</EmVariableAttributes>
+<EmTargetAttributes>
+<fund>
+<DecData Table="EMWS1.Ids_fund_DD">
+<Data>
+<Obs FUND="1" COUNT="14075" DATAPRIOR="0.0898408078" TRAINPRIOR="0.0898408078" DECPRIOR="." DECISION1="1" DECISION2="0"/>
+<Obs FUND="0" COUNT="142591" DATAPRIOR="0.9101591922" TRAINPRIOR="0.9101591922" DECPRIOR="." DECISION1="0" DECISION2="1"/>
+</Data>
+<Metadata>
+<Variable NAME="fund" LABEL="" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="COUNT" LABEL="Level Counts" LENGTH="8" FORMAT="10." TYPE="N"/>
+<Variable NAME="DATAPRIOR" LABEL="Data Proportions" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="TRAINPRIOR" LABEL="Training Proportions" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECPRIOR" LABEL="Decision Priors" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECISION1" LABEL="1" LENGTH="8" FORMAT="" TYPE="N"/>
+<Variable NAME="DECISION2" LABEL="0" LENGTH="8" FORMAT="" TYPE="N"/>
+</Metadata>
+</DecData>
+<DecMeta Table="EMWS1.Ids_fund_DM">
+<Data>
+<Obs _TYPE_="MATRIX" VARIABLE="" LABEL="" LEVEL="PROFIT" EVENT="" ORDER="" FORMAT="" TYPE="" COST="" USE="N"/>
+<Obs _TYPE_="TARGET" VARIABLE="fund" LABEL="是否在3個月內有購買基金" LEVEL="BINARY" EVENT="1" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="DECISION" VARIABLE="DECISION1" LABEL="1" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="Y"/>
+<Obs _TYPE_="DECISION" VARIABLE="DECISION2" LABEL="0" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="Y"/>
+<Obs _TYPE_="DATAPRIOR" VARIABLE="DATAPRIOR" LABEL="Data Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="TRAINPRIOR" VARIABLE="TRAINPRIOR" LABEL="Training Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="DECPRIOR" VARIABLE="DECPRIOR" LABEL="Decision Prior" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE="N"/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_fund1" LABEL="預測: fund=1" LEVEL="1" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_fund1" LABEL="Residual: fund=1" LEVEL="1" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="PREDICTED" VARIABLE="P_fund0" LABEL="預測: fund=0" LEVEL="0" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="RESIDUAL" VARIABLE="R_fund0" LABEL="Residual: fund=0" LEVEL="0" EVENT="" ORDER="" FORMAT="" TYPE="N" COST="" USE=""/>
+<Obs _TYPE_="FROM" VARIABLE="F_fund" LABEL="從: fund" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="C" COST="" USE=""/>
+<Obs _TYPE_="INTO" VARIABLE="I_fund" LABEL="到: fund" LEVEL="" EVENT="" ORDER="" FORMAT="" TYPE="C" COST="" USE=""/>
+</Data>
+<Metadata>
+<Variable NAME="_TYPE_" LABEL="Type" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="VARIABLE" LABEL="Variable" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="LABEL" LABEL="Label" LENGTH="256" FORMAT="" TYPE="C"/>
+<Variable NAME="LEVEL" LABEL="Measurement Level" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="EVENT" LABEL="Target Event" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="ORDER" LABEL="Order" LENGTH="10" FORMAT="" TYPE="C"/>
+<Variable NAME="FORMAT" LABEL="Format" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="TYPE" LABEL="Type" LENGTH="1" FORMAT="" TYPE="C"/>
+<Variable NAME="COST" LABEL="Cost" LENGTH="32" FORMAT="" TYPE="C"/>
+<Variable NAME="USE" LABEL="Use" LENGTH="1" FORMAT="" TYPE="C"/>
+</Metadata>
+</DecMeta>
+</fund>
+</EmTargetAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMSAMP.IDS.CLASS" COMPONENT="DataSource" ID="Ids2" X="899" Y="366" DESCRIPTION="nofund_customers" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="SAMPLE" TOOLPREFIX="Ids">
+<PROPERTIES Component="DataSource" Description="nofund_customers" Role="SCORE" Library="EMDATA" Table="NOFUND_CUSTOMERS" ForceRun="N" ComputeStatistics="N" DataSource="" DataSelection="USERTABLE" NewTable="EMDATA.NOFUND_CUSTOMERS" OutputType="VIEW" MetaAdvisor="BASIC" ApplyIntervalLevelLowerLimit="Y" IntervalLowerLimit="20" ApplyMaxPercentMissing="Y" MaxPercentMissing="50" MaxClassLevels="20" IdentifyEmptyColumns="Y" VariableValidation="STRICT" NewVariableRole="REJECT" Sample="D" SampleSizeType="PERCENT" SampleSizePercent="20" SampleSizeObs="10000" DBPassThrough="Y" NObs="100" NCols="37" NBytes="66560" Segment="" ApplyMaxClassLevels="Y" DropMapVariables="N">
+<EmVariableAttributes>
+<DELTA Variable="allprice_6mon_bank" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="card" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="chi_num" AttributeName="LEVEL" AttributeValue="ORDINAL"/>
+<DELTA Variable="credit" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="credit_old" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="degree" AttributeName="LEVEL" AttributeValue="ORDINAL"/>
+<DELTA Variable="delete_insurance_creditcard" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="delete_insurance_deposit" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="f_rate_atm" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="f_rate_atm" AttributeName="LEVEL" AttributeValue="INTERVAL"/>
+<DELTA Variable="f_rate_counter" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="f_rate_counter" AttributeName="LEVEL" AttributeValue="INTERVAL"/>
+<DELTA Variable="f_rate_ebank" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="f_rate_ebank" AttributeName="LEVEL" AttributeValue="INTERVAL"/>
+<DELTA Variable="f_rate_phone" AttributeName="ROLE" AttributeValue="INPUT"/>
+<DELTA Variable="f_rate_phone" AttributeName="LEVEL" AttributeValue="INTERVAL"/>
+<DELTA Variable="foreign_currency_loan" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="gender" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="insurance" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="marry" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="secured_loan" AttributeName="LEVEL" AttributeValue="BINARY"/>
+<DELTA Variable="unsecured_loan" AttributeName="LEVEL" AttributeValue="BINARY"/>
+</EmVariableAttributes>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMDFY.EMIMPUTE.CLASS" COMPONENT="Impute" ID="Impt" X="584" Y="165" DESCRIPTION="設算" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Impt">
+<PROPERTIES MethodInterval="MEAN" MethodClass="COUNT" MethodTargetInterval="NONE" MethodTargetClass="NONE" ABWTuning="9" AHUBERTuning="1.5" AWAVETuning="6.2831853072" SpacingProportion="90" DefaultChar="" DefaultNum="." RandomSeed="12345" Normalize="Y" ImputeNoMissing="N" MaxPctMissing="50" ValidateTestMissing="N" DistributionMissing="N" LeafSize="5" Maxbranch="2" Maxdepth="6" MinCatSize="5" Nrules="5" Nsurrs="2" Splitsize="." Indicator="NONE" IndicatorRole="INPUT" ReplaceVariable="N" HideVariable="Y" IndicatorSource="IMPUTED" ForceRun="N" RunAction="Train" Component="Impute">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="add_now" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="age" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="allprice_6mon" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="allprice_6mon_bank" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="asset" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="card" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="chi_num" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="credit" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="credit_old" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="cus_mon" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="degree" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="delete_insurance_creditcard" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="delete_insurance_deposit" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="ebank_mon" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="f_rate_atm" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="f_rate_counter" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="f_rate_ebank" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="f_rate_phone" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="foreign_currency_loan" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="fund" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="gender" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="income" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="income" AttributeName="METHOD" AttributeValue="MEDIAN"/>
+<DELTA Variable="insurance" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="job_g" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="liability" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="marry" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="prefer_f" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="prefer_tw" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="pro_num" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="sec_1monprice_1yr" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="sec_1monprice_1yr" AttributeName="METHOD" AttributeValue="MEDIAN"/>
+<DELTA Variable="sec_freq_1yr" AttributeName="USE" AttributeValue="Y"/>
+<DELTA Variable="sec_freq_1yr" AttributeName="METHOD" AttributeValue="MEDIAN"/>
+<DELTA Variable="secured_loan" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="tw_rate_atm" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="tw_rate_counter" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="tw_rate_ebank" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="tw_rate_phone" AttributeName="USE" AttributeValue="N"/>
+<DELTA Variable="unsecured_loan" AttributeName="USE" AttributeValue="N"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMASSMT.ASSESS.CLASS" COMPONENT="ModelCompare" ID="MdlComp" X="1106" Y="138" DESCRIPTION="模型比較" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="MdlComp">
+<PROPERTIES NumberOfReportedLevels="1E-6" NormalizeReportingVariables="Y" DecileBin="20" LiftEpsilon="1E-6" ProfitEpsilon="1E-6" RoiEpsilon="1E-6" ScoreDistBin="20" RocChart="Y" RocEpsilon="0.01" AssessAllTargetLevels="N" SelectionData="DEFAULT" HPCriteria="DEFAULT" intervalViyaCriteria="DEFAULT" classViyaCriteria="DEFAULT" SelectionTable="TRAIN" SelectionCriteria="DEFAULT" SelectionDepth="10" NumberofBins="20" RecomputeAssess="N" TargetName="fund" ModelId="Tree" ModelDescription="決策樹" ModelCriteria="有效: 誤分類率" ForceRun="N" RunAction="Train" Component="ModelCompare" StatisticUsed="_VMISC_" TargetLabel="是否在3個月內有購買基金">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMSAMP.EMDPART.CLASS" COMPONENT="Partition" ID="Part" X="385" Y="165" DESCRIPTION="資料分區" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="SAMPLE" TOOLPREFIX="Part">
+<PROPERTIES Method="DEFAULT" TrainPct="70" ValidatePct="30" TestPct="0" RandomSeed="12345" OutputType="DATA" IntervalDistribution="Y" ClassDistribution="Y" ForceRun="N" RunAction="Train" Component="Partition">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMODL.REGRESSION.CLASS" COMPONENT="Regression" ID="Reg" X="943" Y="240" DESCRIPTION="迴歸" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Reg">
+<PROPERTIES MainEffect="Y" TwoFactor="N" Polynomial="N" PolynomialDegree="2" Terms="N" Error="LOGISTIC" LinkFunction="LOGIT" SuppressIntercept="N" InputCoding="DEVIATION" MinResourceUse="N" ModelSelection="STEPWISE" SelectionCriterion="DEFAULT" SelectionDefault="Y" Sequential="N" SlEntry="0.05" SlStay="0.05" Start="0" Stop="0" Force="0" Hierarchy="CLASS" Rule="NONE" MaxStep="." StepOutput="N" OptimizationTechnique="DEFAULT" ModelDefaults="Y" MaxIterations="." MaxFunctionCalls="." MaxCPUTime="1 HOUR" ConvDefaults="Y" AbsConvValue="-1.34078E154" AbsFValue="0" AbsFTime="1" AbsGValue="0.00001" AbsGTime="1" AbsXValue="1E-8" AbsXTime="1" FConvValue="0" FConvTimes="1" GConvValue="1E-6" GConvTimes="1" ClParm="N" Covout="N" CovB="N" CorB="N" Simple="N" SuppressOutput="N" Details="N" PrintDesignMatrix="N" SASSPDS="N" Performance="N" ExcludedVariable="REJECT" ForceRun="N" RunAction="Train" Component="Regression" Interactions="">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMUTIL.EMSCORE.CLASS" COMPONENT="Score" ID="Score" X="1274" Y="138" DESCRIPTION="評分" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="ASSESS" TOOLPREFIX="Score">
+<PROPERTIES OutputType="VIEW" FixedOutputNames="Y" HideVariables="N" HideInput="Y" HideTarget="Y" HideRejected="Y" HideAssess="Y" HidePredict="Y" HideFreq="Y" HideClassification="Y" HideResidual="Y" HideOther="Y" ScoreValidate="N" ScoreTest="N" CScore="N" JScore="N" PackageName="DEFAULT" UserPackageName="" PreferenceName="" OptimizedCode="Y" GraphReports="Y" ForceRun="N" RunAction="Train" Component="Score">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMSAMP.SAMPLING.CLASS" COMPONENT="Sample" ID="Smpl" X="249" Y="165" DESCRIPTION="樣本" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="SAMPLE" TOOLPREFIX="Smpl">
+<PROPERTIES Method="DEFAULT" SizeType="PERCENT" SizePercent="10" SizeObs="." RandomSeed="12345" Alpha="0.01" Pvalue="0.01" AdjustFreq="N" FreqMiss="N" FreqCount="N" StratifyCriterion="LEVELBASED" MinStrataSize="5" IgnoreSmallStrata="N" ClusterMethod="RANDOM" LevelProportion="100" LevelSampleProportion="50" LevelSelection="EVENT" OutputType="DATA" IntervalDistribution="Y" ClassDistribution="Y" ForceRun="N" RunAction="Train" Component="Sample">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes/>
+<EmFileProperties>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMMDFY.EMTRANS.CLASS" COMPONENT="Transform" ID="Trans" X="782" Y="166" DESCRIPTION="轉換變數" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODIFY" TOOLPREFIX="Trans">
+<PROPERTIES DefaultMethod="NONE" DefaultTargetMethod="NONE" DefaultClassMethod="NONE" DefaultClassTargetMethod="NONE" Offset="1" MinOffset="Y" HideVariable="Y" RejectVariable="Y" GroupCutoff="0.1" GroupMissing="N" EmRandomSeed="12345" EmSampleSize="DEFAULT" EmSampleMethod="FIRSTN" MissingValue="USEINSEARCH" SummaryVariables="TRANSFORMED" SummaryStatistics="Y" UseMetaTransform="Y" MissingAsLevel="N" NumberofBins="VARIABLES" MaxOptimalBins="4" ForceRun="N" RunAction="Train" Component="Transform">
+<VariableProperties/>
+<EmTargetAttributes/>
+<EmVariableAttributes>
+<DELTA Variable="IMP_income" AttributeName="METHOD" AttributeValue="SQUARE"/>
+<DELTA Variable="allprice_6mon" AttributeName="METHOD" AttributeValue="LOG"/>
+<DELTA Variable="cus_mon" AttributeName="METHOD" AttributeValue="LOG"/>
+</EmVariableAttributes>
+<EmFileProperties>
+<INTERACTION Type="DATA">
+<Data/>
+<Metadata/>
+</INTERACTION>
+<FORMULA Type="DATA">
+<Data/>
+<Metadata/>
+</FORMULA>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+<NODE CLASS="SASHELP.EMCORE.EXTENSION.CLASS" COMPONENT="DecisionTree" ID="Tree" X="770" Y="69" DESCRIPTION="決策樹" DIAGRAMID="_ROOT_" PARENTID="" TOOLTYPE="MODEL" TOOLPREFIX="Tree">
+<PROPERTIES Location="CATALOG" Catalog="SASHELP.EMMODL.TREE.SOURCE" ToolType="MODEL" TrainMode="BATCH" ImportModel="N" Freeze="N" UseMultipleTarget="N" Precision="4" IntervalCriterion="PROBF" NominalCriterion="PROBCHISQ" OrdinalCriterion="ENTROPY" SigLevel="0.2" Splitsize="." LeafSize="5" MinCatSize="5" Maxbranch="2" Maxdepth="6" Nrules="5" Nsurrs="0" MissingValue="USEINSEARCH" UseVarOnce="N" SplitPrecision="4" Subtree="ASSESSMENT" NSubtree="1" AssessMeasure="PROFIT/LOSS" AssessPercentage="0.25" NodeSample="20000" Exhaustive="5000" Kass="Y" KassApply="BEFORE" Depth="Y" Inputs="N" NumInputs="1" VarSelection="Y" Leafid="Y" NodeRole="SEGMENT" Performance="DISK" CV="N" CVNIter="10" CVRepeat="1" CVSeed="12345" ObsImportance="N" NumSingleImp="5" UseDecision="N" UsePriors="N" ClassColorBy="PERCENTCORRECT" IntColorBy="AVG" ShowNodeId="Y" ShowValid="Y" Pred="N" Target="ALL" Count="Y" ProfitLoss="NONE" PercentCorrect="N" AVG="Y" RASE="N" CreateSample="DEFAULT" SampleMethod="RANDOM" SampleSize="10000" SampleSeed="12345" ForceRun="N" RunAction="Train" Component="DecisionTree" Criterion="DEFAULT" Dummy="N" Predict="Y" ImportedTreeData="">
+<VariableProperties/>
+<EmVariableAttributes/>
+<EmTargetAttributes/>
+<EmFileProperties>
+<USERTRAINCODE Type="EXTERNAL" Extension="sas">
+<Data/>
+</USERTRAINCODE>
+<EMNOTES Type="EXTERNAL" Extension="txt">
+<Data/>
+</EMNOTES>
+</EmFileProperties>
+</PROPERTIES>
+</NODE>
+</NODES>
+<CONNECTIONS>
+<CONNECTION FROM="Ids" TO="Smpl"/>
+<CONNECTION FROM="Smpl" TO="Part"/>
+<CONNECTION FROM="Part" TO="Impt"/>
+<CONNECTION FROM="Impt" TO="Trans"/>
+<CONNECTION FROM="Part" TO="Tree"/>
+<CONNECTION FROM="Trans" TO="Reg"/>
+<CONNECTION FROM="Tree" TO="MdlComp"/>
+<CONNECTION FROM="Reg" TO="MdlComp"/>
+<CONNECTION FROM="MdlComp" TO="Score"/>
+<CONNECTION FROM="Ids2" TO="Score"/>
+</CONNECTIONS>
+<NOTES>
+<DATA><![CDATA[
+
+
+
+
+]]>
+</DATA>
+</NOTES>
+</Workspace>
+</_ROOT_>
